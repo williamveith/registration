@@ -1,2 +1,3 @@
 # ignore unit tests
-"Unit Testing.js"
+/UnitTesting.js
+.DS_Store
