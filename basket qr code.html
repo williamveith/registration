@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Image Caption Example</title>
+    <style>
+        body {
+            margin: 0%;
+        }
+
+        .container {
+            width: 4in;
+            position: relative;
+            text-align: center;
+            padding-right: 0.50in;
+            border-right: 0.01in dashed #D3D3D3;
+            border-bottom: 0.01in dashed #D3D3D3;
+        }
+
+        .image {
+            width: 2in;
+        }
+
+        .caption {
+            margin: 0in;
+            padding: 0in;
+            color: #000000;
+            font-size: 0.45in;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+  <div class="container">
+    <img class="image" src="data:image/png;base64,<?= bytes ?>" alt="Your Image">
+    <div class="caption">
+      <?= basketNumber ?>
+    </div>
+  </div>
+</body>
+
+</html>
